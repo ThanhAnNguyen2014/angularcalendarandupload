@@ -1,0 +1,14 @@
+<div>
+  <div class="form-container">
+    <div class="heading-container">
+      <h3>Please select a csv file from your computer.</h3>
+    </div>
+    <form>
+      <div class="upload">
+        <label>
+            <input type="file" name="datasource_upload"  accept=".xlsx,.xls,.csv" ngf-max-size="20MB" fd-input (change)="uploadDatasource($event)" />
+        </label>
+      </div>
+    </form>
+  </div>
+</div>

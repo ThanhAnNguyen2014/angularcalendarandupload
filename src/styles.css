@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+/* @import '/node_modules/jquery-ui/themes/base/base.css'; */
+@import '~/assets/css/jquery-ui.css';
+
+.event .ui-state-default{
+    background: green !important;
+}
+
+.event2 .ui-state-default{
+    background: blueviolet !important;
+}
+
