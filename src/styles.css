@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~/node_modules/bootstrap/dist/css/bootstrap.min.css';
+/* @import '~/node_modules/bootstrap/dist/css/bootstrap.min.css'; */
 /* @import '/node_modules/jquery-ui/themes/base/base.css'; */
-@import '~/assets/css/jquery-ui.css';
-
+/* @import '~/assets/css/jquery-ui.css'; */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css');
 .event .ui-state-default{
     background: green !important;
 }
